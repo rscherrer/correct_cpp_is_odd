@@ -27,7 +27,7 @@ int main(int argc, char * argv[]) {
             toDisplay = "true";
         }
 
-        std::cout << toDisplay;
+        std::cout << toDisplay << '\n';
 
     }
     catch(const std::exception &err) {
