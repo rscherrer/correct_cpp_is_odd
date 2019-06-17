@@ -24,7 +24,7 @@ int main(int argc, char * argv[])
             std::cout << "false\n";
         }
     }
-    catch (std::exception&)
+    catch (const std::exception&)
     {
         return 1;
     }
